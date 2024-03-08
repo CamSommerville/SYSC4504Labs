@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Nintendo Switch Fan Page</title>
+        <link rel = "icon" href ="images/Nintendo_website_logo.png" type = "image/x-icon">
+        <link rel = "stylesheet" href = "assets/style.css">
+    </head>
+    <body>
+        <div class = header>
+            <h1>
+                Nintendo Switch Fan Page
+            </h1>
+            <h3>
+                by: Cam Sommerville
+            </h3>
+            <h4>
+                Jan 31st 2024
+            </h4>
+        </div>
+        <ul class = navigation>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="https://www.nintendo.com/en-ca/">Company Website</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <form method="post" action="https://ramisabouni.com/sysc4504/Lab03_process.php">
+            <fieldset>
+                <legend>Contact Us</legend>
+                <p>
+                    <label>Enter your email address:</label>
+                    <input type="text" name="email_address">
+                </p>
+                <p>
+                    <label>Choose your Province</label>
+                    <select name="province">
+                        <option>ON</option>
+                        <option>NL</option>
+                        <option>PE</option>
+                        <option>NS</option>
+                        <option>NB</option>
+                        <option>QC</option>
+                        <option>MB</option>
+                        <option>SK</option>
+                        <option>AB</option>
+                        <option>BC</option>
+                        <option>YT</option>
+                        <option>NT</option>
+                        <option>NU</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Reason for contacting us:<br></label>
+                    <input type="radio" name="reason" value="1">Billing<br>
+                    <input type="radio" name="reason" value="2">General Enquiry<br>
+                    <input type="radio" name="reason" value="3">Technical Issue<br>
+                    <input type="radio" name="reason" value="4">Track Shipment<br>
+                    <input type="radio" name="reason" value="5">Other<br>
+                </p>
+                <p>
+                    <textarea name="question" rows="10" cols="90"></textarea>
+                </p>
+                <input type="submit">
+            </fieldset>
+        </form>
+        <footer>Copyright &copy; Cam Sommerville - <span class = email>camsommerville@cmail.carleton.ca</span></footer>
+    </body>
+</html>
