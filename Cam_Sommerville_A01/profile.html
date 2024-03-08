@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Register on SYSCX</title>
+   <link rel="stylesheet" href="assets/css/reset.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+   <header>
+      <h1>SYSCX</h1>
+      <p>Social media for SYSC students in Carleton University</p>
+   </header>
+   <main>
+      <table>
+         <tr>
+            <td class="edge">
+               <nav>
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="profile.html">Profile</a></li>
+                     <li><a href="register.html">Register</a></li>
+                     <li><a href="">Log Out</a></li>
+                  </ul>
+               </nav>
+            </td>
+            <td id="center">
+               <section>
+                  <h2>Update Profile information</h2>
+                  <form method="post" action="https://ramisabouni.com/sysc4504/process_profile.php">
+                     <fieldset>
+                        <legend><span>Personal information</span></legend>
+                        <label>First Name:</label>
+                        <input type="text" name="first_name">
+                        <label>Last Name:</label>
+                        <input type="text" name="last_name">
+                        <label>DOB:</label>
+                        <input type="date" name="DOB">
+                     </fieldset>
+                     <fieldset>
+                        <legend><span>Address</span></legend>
+                        <label>Street Number:</label>
+                        <input type="number" name="street_number">
+                        <label>Street Name: </label>
+                        <input type="text" name="street_name">
+                        <label><br>City: </label>
+                        <input type="text" name="city">
+                        <label>Province: </label>
+                        <input type="text" name="province">
+                        <label>Postal Code: </label>
+                        <input type="text" name="postal_code">
+                     </fieldset>
+                     <fieldset>
+                        <legend><span>Profile Information</span></legend>
+                        <label>Email:</label>
+                        <input type="text" name="student_email">
+                        <label><br>Program:</label>
+                        <select name="program">
+                              <option>Choose Program</option>
+                              <option>Computer Systems Engineering</option>
+                              <option>Software Engineering</option>
+                              <option>Communications Engineering</option>
+                              <option>Electrical Engineering</option>
+                              <option>Biomedical and Electrical Engineering</option>
+                              <option>Special</option>
+                        </select>
+                        <label><br>Choose Your Avatar:<br></label>
+                        <label><input type="radio" name="avatar" value="1"><img src="images/img_avatar1.png" alt="avatar1"></label>
+                        <label><input type="radio" name="avatar" value="2"><img src="images/img_avatar2.png" alt="avatar2"></label>
+                        <label><input type="radio" name="avatar" value="3"><img src="images/img_avatar3.png" alt="avatar3"></label>
+                        <label><input type="radio" name="avatar" value="4"><img src="images/img_avatar4.png" alt="avatar4"></label>
+                        <label><input type="radio" name="avatar" value="5"><img src="images/img_avatar5.png" alt="avatar5"></label>
+                        <div>
+                           <input type="submit">
+                           <input type="reset">
+                        </div>
+                     </fieldset>
+                  </form>
+               </section>
+            </td>
+            <td class="edge">
+               <div class="user_info">
+                  First Last Name<br>
+                  <img src="images/img_avatar5.png" alt="avatar">
+                  <br>Email:
+                  <a href="">student@cmail.carleton.ca</a>
+                  <br>Program:<br>Software Engineering
+               </div>
+            </td>
+         </tr>
+      </table>
+   </main>
+</body>
+</html>
